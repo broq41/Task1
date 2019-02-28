@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<div class="center">
+<div class="center register_form">
     <div class="header center">
         <h2>Rejestracja użytkownika</h2>
     </div>

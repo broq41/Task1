@@ -7,13 +7,13 @@
 </head>
 
 <body>
-<div class="center">
+<div class="center login_form">
 
     <div class="header center">
         <h2>Logowanie</h2>
     </div>
 
-    <div class="center">
+    <div class="center ">
 
         <form method="post" action="index.php?page=user&action=login">
 

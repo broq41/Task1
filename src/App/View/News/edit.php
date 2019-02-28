@@ -7,7 +7,7 @@
 </head>
 
 <body>
-<div class="center">
+<div class="center news_form">
 
 
     <div class="header center">

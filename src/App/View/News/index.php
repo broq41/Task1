@@ -9,16 +9,16 @@
 <body>
 
 <nav>
-    <ul class="center">
+    <ul class="center_nav">
         <li><a class="btn btn_link" href="index.php?page=news&action=create">Dodaj newsa</a></li>
-        <li><a class="btn btn_link pull_right" href="index.php?page=user&action=logout">Wyloguj</a></li>
+        <li><a class="btn btn_link" href="index.php?page=user&action=logout">Wyloguj</a></li>
 
     </ul>
 </nav>
 
-<div class="center">
+<div class="news_container">
 
-    <div class="header center">
+    <div class="header">
         <h2>Newsy</h2>
     </div>
 
@@ -37,8 +37,8 @@
                   <p> Opis: " . $news['description'] . "</p>
                   </div>
                   <div class='news_index_inline'>
-                <p><a class='btn btn_link btn_danger' href=\"index.php?page=news&action=remove&params[id]=" . $news['id'] . "\">Usuń newsa</a></p>
-                <p><a class='btn btn_link' href=\"index.php?page=news&action=edit&params[id]=" . $news['id'] . "\">Edytuj newsa</a></p>
+                <div class='pull_right'><a class='btn btn_link btn_danger' href=\"index.php?page=news&action=remove&params[id]=" . $news['id'] . "\">Usuń newsa</a></div>
+                <div class='pull_right'><a class='btn btn_link' href=\"index.php?page=news&action=edit&params[id]=" . $news['id'] . "\">Edytuj newsa</a></div>
                 </div>
                 </div>
 ";
