@@ -1,9 +1,9 @@
 <?php
 
-$host="localhost";
-$user="root";
-$password="KeHBJ7M5fpYX9xJb";
-$database="test";
+$host="your_db_host";
+$user="your_db_user";
+$password="your_db_pass";
+$database="your_database_name";
 
 
 
